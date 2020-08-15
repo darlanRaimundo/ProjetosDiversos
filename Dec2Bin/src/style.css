@@ -1,0 +1,24 @@
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgba(235, 229, 210, 0.699) no-repeat fixed center;
+}
+
+.inp{
+    border-radius:4px;
+    box-shadow: 1px 1px 2px #7a7a7a;    
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:150px;
+    height: 30px;
+    display: block;
+}
+
+.botao {
+    height: 30px;
+    display: block;
+    margin: 5px;
+}
+
+.label {
+    margin: 0px;    
+}
