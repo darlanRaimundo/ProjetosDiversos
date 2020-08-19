@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proj. Calculadora</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="header">Calculadora</div>
+        <input type="text" class="result" name="result" disabled="">
+        <div class="first-row">
+            <input type="button" name="sete" value="7" class="global">
+            <input type="button" name="oito" value="8" class="global">
+            <input type="button" name="nove" value="9" class="global">
+            <input type="button" name="divi" value="/" class="global">
+        </div>
+        <div class="second-row">
+            <input type="button" name="quatro" value="4" class="global">
+            <input type="button" name="cinco" value="5" class="global">
+            <input type="button" name="seis" value="6" class="global">
+            <input type="button" name="multi" value="X" class="global">
+        </div>
+        <div class="third-row">
+            <input type="button" name="um" value="1" class="global">
+            <input type="button" name="dois" value="2" class="global">
+            <input type="button" name="tres" value="3" class="global">
+            <input type="button" name="sub" value="-" class="global">
+        </div>
+        <div class="conflict">
+            <div class="left">
+                <input type="button" name="zero" value="0" class=" big">
+                <input type="button" name="ponto" value="." class=" small">
+                <input type="button" name="del" value="Del" class=" red small white-text top-margin">
+                <input type="button" name="igual" value="=" class=" green white-text big top-margin">
+            </div>
+            <div class="right">
+                <input type="button" name="soma" value="+" class="global grey plus">
+                <input type="button" name="porcent" value="%" class="global grey plus">
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+
+</html>
